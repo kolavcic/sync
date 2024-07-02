@@ -1,0 +1,42 @@
+{
+  "_id": "667edc1aea8cff0001c1726a",
+  "id": "667edc1aea8cff0001c1726a",
+  "name": "check custom",
+  "org_id": "667abac4c2a1f6000141100a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "788469b1a629444177983146887d75fa": {
+      "api_name": "check custom key",
+      "api_id": "788469b1a629444177983146887d75fa",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-06-28T15:51:54.36Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1719589914",
+  "meta_data": {}
+}

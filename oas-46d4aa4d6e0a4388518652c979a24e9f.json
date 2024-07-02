@@ -1,0 +1,81 @@
+{
+  "oas": {
+    "components": {
+      "securitySchemes": {
+        "authToken": {
+          "in": "header",
+          "name": "Authorization",
+          "type": "apiKey"
+        }
+      }
+    },
+    "info": {
+      "title": "template api",
+      "version": "1.0.0"
+    },
+    "openapi": "3.0.3",
+    "paths": {
+      "/ip": {
+        "get": {
+          "description": "this is some description",
+          "responses": {
+            "200": {
+              "description": ""
+            }
+          },
+          "summary": "this is summary"
+        }
+      }
+    },
+    "security": [
+      {
+        "authToken": []
+      }
+    ],
+    "servers": [
+      {
+        "url": "http://tyk-gateway-local:8080/template-api-1/"
+      }
+    ],
+    "x-tyk-api-gateway": {
+      "info": {
+        "dbId": "66842d795c3f160001a895aa",
+        "id": "46d4aa4d6e0a4388518652c979a24e9f",
+        "name": "template api - 1",
+        "orgId": "667abac4c2a1f6000141100a",
+        "state": {
+          "active": true
+        }
+      },
+      "server": {
+        "authentication": {
+          "enabled": true,
+          "securitySchemes": {
+            "authToken": {
+              "enabled": true
+            }
+          }
+        },
+        "gatewayTags": {
+          "enabled": true,
+          "tags": [
+            "qa",
+            "QA",
+            "edge"
+          ]
+        },
+        "listenPath": {
+          "value": "/template-api-1/"
+        }
+      },
+      "upstream": {
+        "url": "https://engvmlfy4mknh.x.pipedream.net"
+      }
+    }
+  },
+  "hook_references": [],
+  "is_site": false,
+  "sort_by": 0,
+  "user_group_owners": [],
+  "user_owners": []
+}

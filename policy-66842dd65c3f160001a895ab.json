@@ -1,0 +1,42 @@
+{
+  "_id": "66842dd65c3f160001a895ab",
+  "id": "66842dd65c3f160001a895ab",
+  "name": "template api policy",
+  "org_id": "667abac4c2a1f6000141100a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "793e87e770ed47e35bf555c03ce7df05": {
+      "api_name": "template api",
+      "api_id": "793e87e770ed47e35bf555c03ce7df05",
+      "versions": [
+        ""
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-07-02T16:41:58.234Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1719938518",
+  "meta_data": {}
+}
