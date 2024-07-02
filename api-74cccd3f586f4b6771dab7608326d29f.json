@@ -2,7 +2,7 @@
   "api_definition": {
     "id": "667edfabea8cff0001c1726b",
     "name": "test",
-    "slug": "temp",
+    "slug": "2",
     "listen_port": 0,
     "protocol": "",
     "enable_proxy_protocol": false,

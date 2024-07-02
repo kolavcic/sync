@@ -2,7 +2,7 @@
   "api_definition": {
     "id": "66826d3ebefd5200016c846b",
     "name": "no sync api",
-    "slug": "temp",
+    "slug": "1",
     "listen_port": 0,
     "protocol": "",
     "enable_proxy_protocol": false,

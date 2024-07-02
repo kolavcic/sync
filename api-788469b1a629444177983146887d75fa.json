@@ -2,7 +2,7 @@
   "api_definition": {
     "id": "667edbfbea8cff0001c17269",
     "name": "check custom key",
-    "slug": "temp",
+    "slug": "3",
     "listen_port": 0,
     "protocol": "",
     "enable_proxy_protocol": false,

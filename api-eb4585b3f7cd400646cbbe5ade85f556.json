@@ -2,7 +2,7 @@
   "api_definition": {
     "id": "6682b61f5c3f160001a895a5",
     "name": "otel-api",
-    "slug": "temp",
+    "slug": "5",
     "listen_port": 0,
     "protocol": "",
     "enable_proxy_protocol": false,
